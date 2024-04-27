@@ -1,7 +1,7 @@
 #Weather-Application-
 
 #Description-
-This responsive application, built in React.js, allows users to view the temperature, humidity, and wind speed of their city by simply searching its name
+This responsive application, built in React.js, allows users to view the temperature, humidity, and wind speed of their city by simply searching its name.
 
 #Deployed-link to visit website-(https://weather-application-by-city-name.netlify.app/)
 
