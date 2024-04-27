@@ -1,0 +1,186 @@
+
+.App-box{
+  width: 300px;
+  height: 420px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 15px;
+  background-image: linear-gradient(180deg, #1E90FF, #7FFFD4	);
+  position: relative;
+}
+.inputData{
+  height:100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inputField{
+  width: 200px;
+  padding: 15px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 30px;
+  outline: none;
+  color: #000;
+  font-family: "Mukta", sans-serif;
+  text-align: center ;
+  cursor: pointer;
+}
+.inputField::placeholder{
+  color:#C0C0C0;  
+}
+.inputField:hover{
+   color:#fff;
+   background-color: #000080;
+   opacity: 0.7;
+}
+.info{
+  width: 100%;
+  height: 320px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  
+}
+
+.info-box-01{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  font-family: "Mukta", sans-serif;
+  width: 300px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #ADFF2F;
+  /*background-color: #000080;*/
+}
+.info-box-01 i {
+  font-size: 3rem;
+}
+.info-box-01 img{
+  width:43px;
+  height: 43px;
+}
+.info-box-01 h1{
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-family: "Mitr", sans-serif;
+  letter-spacing: 1px;
+  color: #000080;
+ 
+}
+.info-box-02 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 25px;
+  width:300px;
+  font-family: "Chakra Petch", sans-serif;
+  background-color: #000080;
+}
+.info-box-02 img{
+  width:100px;
+  height: 100px;
+}
+.info-box-02 h1{
+  font-size: 2rem;
+}
+.info-box-02 .border{
+  width:2px;
+  height: 80px;
+  background-color: red;
+}
+.bottom-infobox{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width:250px;
+  margin-top: 82px;
+  font-family: "Chakra Petch", sans-serif;
+  border: none;
+  padding: 7px;
+  z-index: 3;
+  
+}
+.bottom-infobox .border02{
+  width:2px;
+  height: 30px;
+  background-color: red;
+  opacity: 0.8;
+}
+.info-box-03, .info-box-04{
+  display: flex;
+  gap:8px;
+  align-items: center;
+}
+.b1{
+  color:#fff;
+}
+.b1 i{
+  font-size: 1.8rem;
+}
+.b2 h1, .b2 p{
+  color:#fff;
+  font-size: 0.8rem;
+}
+.noData{
+  width:200px;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 700;
+  opacity: 0.5;
+  font-family: "Mukta", sans-serif;
+}
+.wave {
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMTc0LjQ3MDY0IDQ2LjM0NTk0IiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPGRlZnM+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9IndhdmUtZ3JhZGllbnQiIHgxPSIwJSIgeTE9IjEwMCUiIHgyPSIwJSIgeTI9IjAlIj4KICAgICAgPHN0b3Agc3R5bGU9InN0b3AtY29sb3I6IzAwMDAzZjsiIG9mZnNldD0iMCIgaWQ9ImRlZXAtb2NlYW4iIC8+CiAgICAgIDxzdG9wIHN0eWxlPSJzdG9wLWNvbG9yOiM0ZTZmZmY7IiBvZmZzZXQ9IjEiIGlkPSJzaGFsbG93LW9jZWFuIiAvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPHBhdGggc3R5bGU9ImZpbGw6dXJsKCN3YXZlLWdyYWRpZW50KTtmaWxsLXJ1bGU6ZXZlbm9kZCIgZD0ibSAwLDExLjM4NDQ4IGMgMCwwIDIxLjEzMzg1MSwxMS4zOTUzMSA0My42MTc2NjEsMTEuMzg0NDEgQyA2Ni4xMDE0NzEsMjIuNzU3OTkgMTA3Ljk2ODU2LDAuMDMyNjIgMTMwLjUwOCw3ZS01IGMgMjIuNTM5NDQsLTAuMDMyNSA0My45NjI2NCwxMS4zODQ0MSA0My45NjI2NCwxMS4zODQ0MSBWIDQ2LjM0NTk0IEggMCBaIiAvPgo8L3N2Zz4=");
+  background-repeat: repeat-x;
+  background-size: 500px auto;
+  background-position: bottom;
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
+  height: 200px; 
+  animation: wave 5s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite;
+  z-index: 1;
+  border-bottom-right-radius: 15px ;
+  border-bottom-left-radius: 15px;
+  border: none;
+  }
+  
+  .wave:nth-of-type(2) {
+  opacity: 0.7;
+  animation: swell 5s ease -1.25s infinite, wave 5s cubic-bezier(0.36, 0.45, 0.63, 0.53) -.125s infinite;
+  z-index: 0;
+  }
+  
+  @keyframes wave {
+  0% {
+  background-position-x: 0%;
+  }
+  100% {
+  background-position-x: -500px;
+  }
+  }
+  
+  @keyframes swell {
+  0%, 100% {
+  background-position: right bottom 10px;
+  }
+  50% {
+  background-position: right bottom 0;
+  }
+  }
+
+  @media(max-width:746px){
+    nav h1{
+      text-align: center;
+    }
+  }
