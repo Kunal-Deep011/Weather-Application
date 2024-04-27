@@ -1,70 +1,17 @@
-# Getting Started with Create React App
+#Weather-Application-
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#Description-
+This responsive application, built in React.js, allows users to view the temperature, humidity, and wind speed of their city by simply searching its name
 
-## Available Scripts
+#Deployed-link to visit website-(https://weather-application-by-city-name.netlify.app/)
 
-In the project directory, you can run:
+#Application-overview-
+      https://github.com/Kunal-Deep011/Weather-Application/assets/117732649/78811ea9-8af3-447e-ab8f-62d11b0f3a30
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+#Screenshots-
+  1) #laptop-view :
+     ![screenshot-01](https://github.com/Kunal-Deep011/Weather-Application/assets/117732649/aba33a5c-c566-4182-8bba-236221b211a0)
+  2) #Mobile-view :
+     ![screenshot-03](https://github.com/Kunal-Deep011/Weather-Application/assets/117732649/b061039d-ab1e-4a8c-ab59-6d98815e6bb9)
+  3) #Tab-view :
+     ![screenshot-02](https://github.com/Kunal-Deep011/Weather-Application/assets/117732649/2b661e3d-9caf-4c23-b59b-f957db85c999)
